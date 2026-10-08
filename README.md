@@ -1,31 +1,93 @@
-👋 Welcome to My GitHub Repository
+# Hi, I'm Ujjwal Singh 👋
 
-   Hey there! I'm Ujjwal Singh, a frontend developer passionate about creating captivating and responsive web experiences. This repository showcases some of my exciting projects built using HTML, CSS, Java, Bootstrap, and JavaScript.
+### Generative AI Engineer | RAG · Multi-Agent Workflows · Applied LLM Systems
 
-- 👀 About Me
+I build production-grade LLM systems: agentic workflows, retrieval pipelines, and fast Python backends that hold up under real traffic. Based in Noida, India.
 
-  I have a strong foundation in web technologies and a creative eye for design. As a frontend developer, I enjoy crafting user-friendly interfaces that not only look great but also provide seamless interactions. My goal is to deliver projects that leave a positive impact on users and clients alike.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ujjwal--singh-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ujjwal-singh)
+[![Email](https://img.shields.io/badge/Email-ujjwalbietjhs@gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:ujjwalbietjhs@gmail.com)
 
-- 🌱 Skills
+---
 
-     Here are my skills as a frontend developer:
+## 🚀 What I do
 
-     HTML: I utilize HTML to structure web pages and create a solid foundation for the content.
-     CSS: With CSS, I bring life to the websites, making them visually appealing and aesthetically pleasing.
-     Java: I leverage JavaScript to add interactivity and dynamic elements to web pages, enhancing user experiences.
-     Bootstrap: I take advantage of Bootstrap's responsive grid system and pre-built components to create mobile-friendly and consistent layouts.
-     JavaScript: JavaScript is my go-to language for implementing complex functionalities, animations, and interactions on the client-side.
+- **Enterprise LLM agents:** Built an Azure OpenAI + LangChain + LangGraph agent backend with **Model Context Protocol (MCP)** tool bindings, serving 2 enterprise clients at up to **100,000 queries/day**.
+- **RAG & semantic search:** Hybrid retrieval on pgvector that improved retrieval precision/recall by **40%**.
+- **Performance & cost:** Multi-layer Redis semantic caching cut response latency by **70–80%** and LLM token usage by **25%**.
+- **Observability:** LLM tracing and token-usage monitoring so AI systems stay measurable, debuggable, and affordable.
+- **Async microservices:** FastAPI, asyncio, Pydantic, Celery, with CI/CD on GitHub Actions.
 
-- 💞️ Projects
+Currently: **SDE I (GenAI & Systems) @ Makunai Global Technologies**
 
-     In this repository, you'll find a collection of projects that demonstrate my skills and passion for frontend development. Each project comes with its own README, providing detailed information on its functionalities and how to run them.
+---
 
-     Feel free to explore the projects and delve into the code. Your feedback and suggestions are highly appreciated, as I'm constantly seeking to improve and refine my skills.
+## 🛠️ Tech Stack
 
-- 📫 Contact
+**Generative AI & Agents**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
 
-     Let's connect! If you have any questions, opportunities, or just want to say hi, you can reach me at [ujjwalbietjhs@gmail.com] or connect with me on LinkedIn: [https://www.linkedin.com/in/ujjwal-singh-812647128/]
+**Vector Search & Retrieval**
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat&logo=meta&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
 
-     Thank you for visiting my GitHub repository. Happy coding! 😊
+**Backend**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
 
-#frontenddeveloper #webdevelopment #HTML #CSS #Java #Bootstrap #JavaScript #webdesign
+**Data & Infra**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
+**Also comfortable with:** Node.js · Express · Next.js · React · TypeScript · OAuth2 / JWT / RBAC
+
+---
+
+## 📌 Featured Projects
+
+### 🔎 RAG Knowledge Retrieval System
+End-to-end Retrieval-Augmented Generation backend over private knowledge bases.
+- FastAPI + LangChain with ChromaDB and FAISS (dependency-injected vector stores)
+- Chunking strategies, dense embeddings, and prompt guardrails
+- **RAGAS** evaluation for Faithfulness and Groundedness
+- Token-by-token **SSE streaming** with under 20 ms server-side overhead
+- Redis semantic caching to avoid redundant LLM calls, cutting token costs by ~25%
+
+`Python` `FastAPI` `LangChain` `ChromaDB` `FAISS` `Redis` `SSE`
+
+### 🛡️ Insurance Claims & Policy Intelligence Assistant
+Multi-agent policy audit assistant built with LangGraph.
+- Autonomous claim verification, policy document parsing, and fraud-risk flagging
+- Structured outputs via Pydantic + function calling on OpenAI / GPT models
+- pgvector retrieval with a cross-encoder reranker
+- Cut claim-validation turnaround by 65% on sample datasets
+
+`Python` `FastAPI` `LangGraph` `pgvector` `Cross-Encoder Reranker` `Streamlit`
+
+> 🔗 *Add repo links here, e.g. `[View repo](https://github.com/livujjwal/<repo-name>)`*
+
+---
+
+## 🎯 Currently exploring
+
+- Agent evaluation and reliability in multi-agent workflows
+- Advanced retrieval: hybrid search, reranking, and RAG evaluation
+- Cost- and latency-aware LLM architectures
+
+---
+
+## 📫 Let's connect
+
+Open to conversations about GenAI engineering, RAG systems, and agentic workflows.
+Reach me on [LinkedIn](https://linkedin.com/in/ujjwal-singh) or at **ujjwalbietjhs@gmail.com**.
